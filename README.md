@@ -5,11 +5,11 @@ A fan-centered web platform dedicated to Cristiano Ronaldo, showcasing his legen
 ---
 
 ## 👥 Project Team
-- **Sayed Helmy** – 221007506  
-- **Mahmoud Waleed** – 221007803  
-- **Eyad Ahmed** – 221027816  
-- **Omar Hesham** – 221027739  
-- **Saad Eldin** – 221006143  
+- **Sayed Helmy**   
+- **Mahmoud Waleed**   
+- **Eyad Ahmed**   
+- **Omar Hesham**   
+- **Saad Eldin**   
 
 **Submitted to:**  
 Dr. Ahmed Maghawry  
