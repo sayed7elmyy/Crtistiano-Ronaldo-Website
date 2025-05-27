@@ -1,0 +1,150 @@
+
+body {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  color: rgb(var(--bs-tertiary-color-rgb));
+}
+
+.carousel-caption text-start img{
+  width: 100%;
+
+}
+
+.carousel {
+  margin-bottom: 4rem;
+}
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+.carousel-item {
+  height: 50rem;
+}
+
+
+
+.featurette-divider {
+  margin: 5rem 0; 
+}
+
+.featurette-heading {
+  letter-spacing: -.05rem;
+}
+
+@media (min-width: 40em) {
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+}
+main {
+  color: rgb(255, 255, 255);
+  background-color: black;
+}
+
+.carousel-inner {
+  background-color: black;
+}
+
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+.bd-mode-toggle {
+  z-index: 1500;
+}
+
+.bd-mode-toggle .dropdown-menu .active .bi {
+  display: block !important;
+}
+
+.navbar-brand span {
+  font-weight: bold;
+}
+
+.navbar {
+  background-color: #1f2225; 
+  position: fixed; 
+  width: 100%; 
+  top: 0; 
+  z-index: 1030; 
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  color: #fff; 
+}
+
+.navbar-brand:hover {
+  text-decoration: none;
+}
+
+.navbar-brand span {
+  color: #ffc107; 
+}
+
+html, body {
+  height: 100%; 
+  margin: 0; 
+  padding: 0; 
+}
+
+.btn-custom {
+  color: #fffbfb;
+  background-color: #000000;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 40px;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  border: none;
+  transition: background-color 0.3s, transform 0.3s;
+  position: absolute;
+  left: 20px; 
+}
+
+.btn-custom:hover {
+  background-color: #444;
+  transform: scale(1.05);
+}
+
+.btn-custom svg {
+  margin: 0; 
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 20px;
+  background-color: #000000;
+  color: #fff;
+}
+
+footer p {
+  margin: 0;
+}
+
+.footer-text {
+  font-size: 2rem; 
+  font-weight: bold;
+}

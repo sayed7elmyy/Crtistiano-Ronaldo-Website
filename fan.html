@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CR7 Dashboard</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="fan.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <a class="navbar-brand" href="#">CR7 Fan Club</a>
+    <button class="btn btn-custom" onclick="navigateToHome()">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house" viewBox="0 0 16 16">
+          <path d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L2 8.207V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V8.207l.646.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293zM13 7.207V13.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V7.207l5-5z"/>
+        </svg>
+      </button>
+    </button>
+  </nav>  
+  <div class="container dashboard-content">
+    <div class="section-title">News and Matches</div>
+    <div class="row">
+      <div class="col-md-6 col-lg-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Latest News</h5>
+            <p class="card-text">Ronaldo has scored 35 of his 65 hat-tricks since turning 30.</p>
+            <a href="https://www.espn.com/soccer/transfer/news" class="btn btn-primary">Read More</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Upcoming Matches</h5>
+            <p class="card-text">Next Match: Al Nassr vs. Al Riyadh on May 23, 2024</p>
+            <p class="card-text">May 27, 2024 : Al Nassr vs. Al Ittihad </p>
+            <p class="card-text">May 31, 2024: Al Nassr vs. Al Hilal </p>
+            <a href="https://www.livescore.com/en/football/team/al-nassr-fc/346/results/" class="btn btn-primary">View Schedule</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Live Match Updates</h5>
+            <p class="card-text">Follow live updates of Cristiano Ronaldo's matches here.</p>
+            <a href="https://www.livescore.com/" class="btn btn-primary">View Live Updates</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section-title">Stats and Achievements</div>
+    <div class="row">
+      <div class="col-md-6 col-lg-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Career Stats</h5>
+            <p class="card-text">Goals: 891, Assists: 250, Appearances: 1200</p>
+            <a href="https://www.transfermarkt.com/cristiano-ronaldo/leistungsdatendetails/spieler/8198" class="btn btn-primary">View Stats</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Achievements and Awards</h5>
+            <p class="card-text">5 Ballon d'Or, 4 European Golden Shoes, 7 League Titles, 5 Champions League Titles</p>
+            <a href="https://en.wikipedia.org/wiki/Cristiano_Ronaldo#Honours" class="btn btn-primary">View Achievements</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Interactive Timeline</h5>
+            <p class="card-text">Explore the key moments in Cristiano Ronaldo's career.</p>
+            <a href="https://www.bbc.com/sport/football/53753543" class="btn btn-primary">View Timeline</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section-title">Media</div>
+    <div class="row">
+      <div class="col-12">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Featured Highlight</h5>
+            <div class="video-container">
+              <video controls autoplay loop muted>
+                <source src="images\THANK YOU, CRISTIANO RONALDO - Real Madrid Official Video_2.mp4" type="video/mp4">
+              </video>
+            </div>
+            <p class="card-text mt-3">Watch the most memorable moments of Cristiano Ronaldo's career.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-12">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Gallery</h5>
+            <div class="gallery-container">
+              <img src="images/gallery1.jpg" alt="Gallery Image 1">
+              <img src="images/gallery2.jpg" alt="Gallery Image 2">
+              <img src="images/gallery3.jpg" alt="Gallery Image 3">
+              <img src="images/gallery4.jpg" alt="Gallery Image 4">
+              <img src="images/gallery5.jpg" alt="Gallery Image 5">
+              <img src="images/gallery6.jpg" alt="Gallery Image 6">
+              <img src="images/gallery7.jpg" alt="Gallery Image 7">
+              <img src="images/gallery8.jpg" alt="Gallery Image 8">
+              <img src="images/gallery9.jpg" alt="Gallery Image 9">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section-title">Community</div>
+    <div class="row">
+      <div class="col-md-6 col-lg-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Fan Community</h5>
+            <p class="card-text">Join the discussion with other CR7 fans.</p>
+            <p class="card-text">Our community is a place for fans to come together, share their passion for Cristiano Ronaldo, and discuss everything from his latest matches to his career highlights. Connect with fellow fans, share your thoughts, and stay updated with the latest news and events. <a href="https://www.reddit.com/r/realmadrid/" class="btn btn-primary mt-3">Join the Community</a></p>
+            <div class="card mb-3">
+              <div class="card-header">Recent Discussions</div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">Upcoming Match Predictions <span class="badge bg-primary">25 comments</span></li>
+                <li class="list-group-item">Favorite Ronaldo Moments <span class="badge bg-primary">45 comments</span></li>
+                <li class="list-group-item">Transfer Rumors <span class="badge bg-primary">30 comments</span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Fan Contributions</h5>
+            <p class="card-text">Share your stories, art, and experiences related to Ronaldo.</p>
+            <p class="card-text">We love to see how Cristiano Ronaldo has inspired you. Whether it's artwork, stories, or personal experiences, we want to hear from you. Share your contributions with the community and get featured on our fan page. <a href="https://www.deviantart.com/tag/cristianoronaldo" class="btn btn-primary mt-3">Contribute Now</a></p>
+            <div class="card mb-3">
+              <div class="card-header">Featured Contributions</div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">Ronaldo Portrait by John Doe <span class="badge bg-primary">5 likes</span></li>
+                <li class="list-group-item">Fan Story: Meeting Ronaldo by Jane Smith <span class="badge bg-primary">8 likes</span></li>
+                <li class="list-group-item">CR7 Themed Poetry by Alex Johnson <span class="badge bg-primary">3 likes</span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Fan Polls and Quizzes</h5>
+            <p class="card-text">Participate in polls and quizzes about Cristiano Ronaldo.</p>
+            <p class="card-text">Test your knowledge about Cristiano Ronaldo and see how much you really know about your favorite football star. Participate in our fun quizzes and polls to earn badges and show off your CR7 expertise. <a href="#" class="btn btn-primary mt-3">Participate Now</a></p>
+            <div class="card mb-3">
+              <div class="card-header">Popular Quizzes</div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">How Well Do You Know Ronaldo? <span class="badge bg-primary">10 questions</span></li>
+                <li class="list-group-item">Ronaldo's Career Highlights <span class="badge bg-primary">15 questions</span></li>
+                <li class="list-group-item">Ronaldo's Teams and Titles <span class="badge bg-primary">12 questions</span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section-title">Shop and Merchandise</div>
+    <div class="row">
+      <div class="col-md-6 col-lg-4">
+        <div class="card">
+          <div class="card-body merchandise-container">
+            <h5 class="card-title">Official Shop</h5>
+            <p class="card-text">Buy official CR7 merchandise.</p>
+            <img src="images/brand1.jpg" alt="Brand Image 1">
+            <div class="price">$69.99</div>
+            <img src="images/brand2.jpg" alt="Brand Image 2">
+            <div class="price">$29.99</div>
+            <img src="images/brand4.jpg" alt="Brand Image 3">
+            <div class="price">$19.99</div>
+            <img src="images/brand3.jpg" alt="Brand Image 4">
+            <div class="price">$39.99</div>
+            <a href="https://cr7museumstore.com/categoria-produto/souvenirs/" class="btn btn-primary mt-3">Shop Now</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="card">
+          <div class="card-body memorabilia-container">
+            <h5 class="card-title">Autograph and Memorabilia</h5>
+            <p class="card-text">Request autographs and view signed memorabilia.</p>
+            <img src="images/brand6.webp" alt="Brand Image 6">
+            <div class="price">$1999.99</div>
+            <img src="images/brand5.jpg" alt="Brand Image 5">
+            <div class="price">$1999.99</div>
+            <img src="images\auto3.webp" alt="Auto Image 2">
+            <div class="price">$1999.99</div>
+            <img src="images/auto2.webp" alt="Auto Image 2">
+            <div class="price">$2599.99</div>
+            <a href="https://www.sportsmemorabilia.com/player/Cristiano_Ronaldo" class="btn btn-primary mt-3">Explore Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function navigateToHome() {
+      window.location.href = 'index.html'; 
+    }
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

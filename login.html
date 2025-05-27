@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login or Sign Up</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="login-container">
+        <!-- Login Form -->
+        <form action="fan.html" id="login-form" method="POST" class="form-login" onsubmit="return validateLogin()">
+            <h2 class="form-title">Log In</h2>
+            <div class="form-field">
+                <label for="login-username">Username</label>
+                <input type="text" id="login-username" name="login_username" required>
+            </div>
+            <div class="form-field">
+                <label for="login-password">Password</label>
+                <input type="password" id="login-password" name="login_password" required>
+            </div>
+            <div class="form-field">
+                <button type="submit" class="btn-login" name="login">Login</button>
+            </div>
+            <p class="form-link">Don't have an account? <a href="#" onclick="toggleForms()">Sign up here</a></p>
+        </form>
+
+        <!-- Sign Up Form -->
+        <form id="signup-form" method="POST" class="form-login form-signup" style="display: none;" onsubmit="return registerUser()">
+            <h2 class="form-title">Sign Up</h2>
+            <div class="form-field">
+                <label for="signup-username">Username</label>
+                <input type="text" id="signup-username" name="signup_username" required>
+            </div>
+            <div class="form-field">
+                <label for="signup-password">Password</label>
+                <input type="password" id="signup-password" name="signup_password" required>
+            </div>
+            <div class="form-field">
+                <label for="gender">Gender</label>
+                <select id="gender" name="gender" required>
+                    <option value="">Select...</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                </select>
+            </div>
+            <div class="form-field">
+                <label for="age">Age</label>
+                <input type="number" id="age" name="age" required>
+            </div>
+            <div class="form-field">
+                <button type="submit" class="btn-login" name="signup">Sign Up</button>
+            </div>
+            <p class="form-link">Already have an account? <a href="#" onclick="toggleForms()">Login here</a></p>
+        </form>
+    </div>
+
+    <script src="login.js"></script>
+
+
+</body>
+</html>
